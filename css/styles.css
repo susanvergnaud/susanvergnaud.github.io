@@ -29,18 +29,18 @@ html {
 	padding: 0;
 	text-align: center;
 }
-ul.headertext li {
-	float: left;
-	margin-left: 10px;
+.headertext li {
+	display: inline list-item;
 	padding-left: 5px;
 }
 li.firstItem {
 	list-style: none;
 }
 .contentThumbs {
-	width: 600px;
+	margin: 0 auto;
+	width: 550px;
 }
-ul.thumbList {
+.thumbList {
 	clear: both;
 	display: block;
 	height: auto;
@@ -67,12 +67,11 @@ h2:hover {
 	opacity: .55;
 }
 @media screen and (max-width: 800px) {
-
 	body {
 		color: #0FF;
 		font-family:Helvetica, Arial, sans-serif;
 		font-size: 130%;
-		padding:0 0 0 0;
+		padding: 0 0 0 0;
 		margin:0;
 	}
 	#container {
@@ -112,18 +111,13 @@ h2:hover {
 		text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
 		width: auto;
 	}
-	ul.headertext li {
-		float: left;
-		margin-left: 10px;
-		padding-left: 5px;
-	}
 	li.firstItem {
 		list-style: none;
 	}
 	.contentThumbs {
-		width:auto!important;
+		width: auto;
 	}
-	ul.thumbList {
+	.thumbList {
 		clear: both;
 		display: block;
 		height: auto;
@@ -156,5 +150,11 @@ h2:hover {
 	}
 	#lightbox-image {
 		width: 100%;
+	}
+}
+
+@media screen and (min-width: 200px) and (max-width: 550px) {
+	.contentThumbs {
+		width: 400px;
 	}
 }
