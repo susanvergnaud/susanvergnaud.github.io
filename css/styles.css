@@ -6,7 +6,31 @@ html {
 	width: 1050px;
 }
 .screen-text {
+	display: block;
 	text-indent: -9999px;
+	position: absolute;
+}
+.resume-header-tab {
+	background:url(../images/sv-resume.png) no-repeat 0 0;
+	right: 26px;
+	top:126px;
+	width:36px;
+	height:138px;
+}
+.resume-link {
+	width:36px;
+	height:138px;
+}
+.ux-header-tab {
+	background:url(../images/ux.png) no-repeat 0 0;
+	right: 8px;
+	top:250px;
+	width:76px;
+	height:158px;
+}
+.ux-link {
+	width:76px;
+	height:158px;
 }
 #container .header-img {
 	background: url(../images/sv-logo.png) no-repeat 0 0;
