@@ -62,7 +62,7 @@ li.firstItem {
 }
 .contentThumbs {
 	margin: 0 auto;
-	width: 550px;
+	width: 700px;
 }
 .thumbList {
 	clear: both;
@@ -73,22 +73,38 @@ li.firstItem {
 }
 .thumbList li {
 	float: left;
-	height: 136px;
 	margin: 0;
 	padding: 0;
-	width: 135px;
+	height: 230px;
 }
 .thumbList li a {
 	display: block;
 	margin: 0;
 	padding: 0;
-	height: 136px;
-	width: 135px;
+	height: 230px;
 	opacity: 1;
+}
+.thumbList li a img {
+	height: 230px;
 }
 .thumbList li a:hover,
 h2:hover {
 	opacity: .55;
+}
+
+#lightbox-container-image-box {
+	height: 50%!important;
+	height: 400px!important;
+	width: 100%!important;
+	width: 1000px!important;
+	height: 80vh !important;
+}
+
+#lightbox-image {
+	width: 60% !important;
+}
+#lightbox-image {
+	height: 100% !important;
 }
 @media screen and (max-width: 800px) {
 	body {
@@ -150,17 +166,15 @@ h2:hover {
 	}
 	.thumbList li {
 		float: left;
-		height: 136px;
 		margin: 0;
 		padding: 0;
-		width: 135px;
+		height: 230px;
 	}
 	.thumbList li a {
 		display: block;
 		margin: 0;
 		padding: 0;
-		height: 136px;
-		width: 135px;
+		height: 230px;
 		opacity: 1;
 	}
 	.thumbList li a:hover,
@@ -169,8 +183,11 @@ h2:hover {
 	}
 
 	#lightbox-container-image-box {
+		background: yellow;
 		height: 50%!important;
+		height: 400px!important;
 		width: 100%!important;
+		width: 1000px!important;
 	}
 	#lightbox-image {
 		width: 100%;
@@ -179,6 +196,6 @@ h2:hover {
 
 @media screen and (min-width: 200px) and (max-width: 550px) {
 	.contentThumbs {
-		width: 400px;
+		width: 600px;
 	}
 }
