@@ -92,7 +92,7 @@ h2:hover {
 	opacity: .55;
 }
 
-#lightbox-container-image-box {
+/*#lightbox-container-image-box {
 	height: 50%!important;
 	height: 400px!important;
 	width: 100%!important;
@@ -105,7 +105,7 @@ h2:hover {
 }
 #lightbox-image {
 	height: 100% !important;
-}
+}*/
 @media screen and (max-width: 800px) {
 	body {
 		color: #0FF;
@@ -185,9 +185,9 @@ h2:hover {
 	#lightbox-container-image-box {
 		background: yellow;
 		height: 50%!important;
-		height: 400px!important;
+		// height: 400px!important;
 		width: 100%!important;
-		width: 1000px!important;
+		// width: 1000px!important;
 	}
 	#lightbox-image {
 		width: 100%;
@@ -197,5 +197,6 @@ h2:hover {
 @media screen and (min-width: 200px) and (max-width: 550px) {
 	.contentThumbs {
 		width: 600px;
+
 	}
 }
